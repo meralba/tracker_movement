@@ -10,6 +10,7 @@ añadir los ficheros PTU.cpp y PTU.h al paquete RosAria.
 
 En los siguientes links se pueden ver las pruebas realizadas:
 
-https://www.youtube.com/watch?v=9JW131XipZ8&t=27s
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=9JW131XipZ8) 
 
 https://www.youtube.com/watch?v=FYzP-Ogg-sU
