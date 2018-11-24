@@ -1,0 +1,40 @@
+#ifndef _VIEWER_H_
+#define _VIEWER_H_
+
+#include <opencv2/opencv.hpp>
+#include <OpenNI.h>
+#include <string>
+
+
+#include <stdlib.h>
+#include <ros/console.h>
+#include <NiTE.h>
+#include <tracker_movement/Tracker.h>
+
+class Viewer{
+    private:
+        openni::VideoStream depth;
+        openni::VideoFrameRef depthFrame;
+        openni::Status statusOpenni;
+        openni::Device kinect;
+        nite::Status niteStatus;
+
+        cv::Mat cvDepthFrame;
+        bool points;
+        openni::DepthPixel* depthImageBuffer;
+        Tracker* tracker;
+
+
+    public:
+        Viewer();
+        ~Viewer();
+
+        void drawLimb(cv::Mat& image, const nite::SkeletonJoint& joint1, const nite::SkeletonJoint& joint2);
+        void drawSkeleton(cv::Mat& image, const nite::UserData& user);
+
+        openni::Status Init(int argc, char **argv);
+        openni::Status openDevice(int argc, char **argv);
+        nite::Status run(std_msgs::String& cmdGripper);
+};
+
+#endif
