@@ -96,7 +96,6 @@ int main(int argc, char **argv) {
     */
 
     viewer.Run();
-    printf("HOASDOIASDIOAS\n");
-	return 0;
+    return 0;
 
 }
