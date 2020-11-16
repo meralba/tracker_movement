@@ -1,3 +1,6 @@
+/** License GPLv3
+  * @author Mer Alba / merAlba
+  */
 #ifndef _REFERENCE_POINTS_H_
 #define _REFERENCE_POINTS_H_
 

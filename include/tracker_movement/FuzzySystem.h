@@ -1,3 +1,6 @@
+/** License GPLv3
+  * @author Mer Alba / merAlba
+  */
 #ifndef _FUZZYSYSTEMS_H_
 #define _FUZZYSYSTEMS_H_
 

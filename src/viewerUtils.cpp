@@ -1,5 +1,6 @@
-//draw Join
-
+/** License GPLv3
+  * @author Mer Alba / merAlba
+  */
 
 
 void drawBone(cv::Mat out ,  NUI_SKELETON_DATA  skeleton,  NUI_SKELETON_POSITION_INDEX jointFrom,NUI_SKELETON_POSITION_INDEX jointTo ){

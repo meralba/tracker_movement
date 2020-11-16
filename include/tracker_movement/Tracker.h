@@ -1,3 +1,6 @@
+/** License GPLv3
+  * @author Mer Alba / merAlba
+  */
 #ifndef _TRACKER_H_
 #define _TRACKER_H_
 

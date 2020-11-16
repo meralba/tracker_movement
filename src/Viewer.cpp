@@ -1,9 +1,10 @@
 /*******************************************************************************
 *                                                                              *
-*   PrimeSense NiTE 2.0 - User Viewer                                    *
+*   PrimeSense NiTE 2.0 - User Viewer                                          *
 *   Copyright (C) 2012 PrimeSense Ltd.                                         *
 *                                                                              *
 *******************************************************************************/
+
 #include <tracker_movement/Viewer.h>
 #include <GL/glut.h>
 

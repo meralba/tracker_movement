@@ -1,3 +1,6 @@
+/** License GPLv3
+  * @author Mer Alba / merAlba
+  */
 #include <tracker_movement/ReferencePoints.h>
 
 
